@@ -1,0 +1,182 @@
+[
+  {
+    "model": "financials.revenue",
+    "pk": 1,
+    "fields": {
+      "property": 1,
+      "month": "2025-01-01",
+      "amount": "250000.00"
+    }
+  },
+  {
+    "model": "financials.revenue",
+    "pk": 2,
+    "fields": {
+      "property": 1,
+      "month": "2025-02-01",
+      "amount": "320000.00"
+    }
+  },
+  {
+    "model": "financials.revenue",
+    "pk": 3,
+    "fields": {
+      "property": 2,
+      "month": "2025-01-01",
+      "amount": "450000.00"
+    }
+  },
+  {
+    "model": "financials.revenue",
+    "pk": 4,
+    "fields": {
+      "property": 2,
+      "month": "2025-02-01",
+      "amount": "520000.00"
+    }
+  },
+  {
+    "model": "financials.revenue",
+    "pk": 5,
+    "fields": {
+      "property": 3,
+      "month": "2025-01-01",
+      "amount": "380000.00"
+    }
+  },
+  {
+    "model": "financials.revenue",
+    "pk": 6,
+    "fields": {
+      "property": 3,
+      "month": "2025-02-01",
+      "amount": "420000.00"
+    }
+  },
+  {
+    "model": "financials.revenue",
+    "pk": 7,
+    "fields": {
+      "property": 4,
+      "month": "2025-01-01",
+      "amount": "280000.00"
+    }
+  },
+  {
+    "model": "financials.revenue",
+    "pk": 8,
+    "fields": {
+      "property": 5,
+      "month": "2025-01-01",
+      "amount": "350000.00"
+    }
+  },
+  {
+    "model": "financials.revenue",
+    "pk": 9,
+    "fields": {
+      "property": null,
+      "month": "2025-01-01",
+      "amount": "3250000.00"
+    }
+  },
+  {
+    "model": "financials.expense",
+    "pk": 1,
+    "fields": {
+      "property": 1,
+      "category": "cleaning",
+      "month": "2025-01-01",
+      "amount": "15000.00",
+      "description": "Monthly cleaning services"
+    }
+  },
+  {
+    "model": "financials.expense",
+    "pk": 2,
+    "fields": {
+      "property": 1,
+      "category": "maintenance",
+      "month": "2025-01-01",
+      "amount": "25000.00",
+      "description": "Regular maintenance and repairs"
+    }
+  },
+  {
+    "model": "financials.expense",
+    "pk": 3,
+    "fields": {
+      "property": 2,
+      "category": "utilities",
+      "month": "2025-01-01",
+      "amount": "28000.00",
+      "description": "Electricity, water, and heating"
+    }
+  },
+  {
+    "model": "financials.expense",
+    "pk": 4,
+    "fields": {
+      "property": 2,
+      "category": "staff",
+      "month": "2025-01-01",
+      "amount": "80000.00",
+      "description": "Staff salaries and benefits"
+    }
+  },
+  {
+    "model": "financials.expense",
+    "pk": 5,
+    "fields": {
+      "property": 3,
+      "category": "maintenance",
+      "month": "2025-01-01",
+      "amount": "35000.00",
+      "description": "Repairs for faulty wiring and heating"
+    }
+  },
+  {
+    "model": "financials.expense",
+    "pk": 6,
+    "fields": {
+      "property": 4,
+      "category": "cleaning",
+      "month": "2025-01-01",
+      "amount": "12000.00",
+      "description": "Monthly cleaning services"
+    }
+  },
+  {
+    "model": "financials.expense",
+    "pk": 7,
+    "fields": {
+      "property": 5,
+      "category": "staff",
+      "month": "2025-01-01",
+      "amount": "60000.00",
+      "description": "Staff salaries and benefits"
+    }
+  },
+  {
+    "model": "financials.expense",
+    "pk": 8,
+    "fields": {
+      "property": 6,
+      "category": "maintenance",
+      "month": "2025-02-01",
+      "amount": "32000.00",
+      "description": "Pest control and extermination"
+    }
+  },
+  {
+    "model": "financials.expense",
+    "pk": 9,
+    "fields": {
+      "property": null,
+      "category": "other",
+      "month": "2025-01-01",
+      "amount": "150000.00",
+      "description": "Company-wide marketing expenses"
+    }
+  }
+]

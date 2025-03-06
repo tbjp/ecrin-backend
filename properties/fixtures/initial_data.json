@@ -1,0 +1,352 @@
+[
+  {
+    "model": "properties.property",
+    "pk": 1,
+    "fields": {
+      "name": "Alpine Lodge",
+      "image": "properties/property1.jpg",
+      "location": "Chamonix",
+      "rooms": 10,
+      "staff_count": 5,
+      "bookings_count": 4,
+      "has_issues": true,
+      "added_date": "2025-01-01"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 2,
+    "fields": {
+      "name": "Auberge Mystique",
+      "image": "properties/glass.jpg",
+      "location": "Val d'Isère",
+      "rooms": 15,
+      "staff_count": 8,
+      "bookings_count": 12,
+      "has_issues": false,
+      "added_date": "2025-02-20"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 3,
+    "fields": {
+      "name": "Château Lumière",
+      "image": "properties/lumi.jpg",
+      "location": "Méribel",
+      "rooms": 20,
+      "staff_count": 12,
+      "bookings_count": 8,
+      "has_issues": true,
+      "added_date": "2025-01-02"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 4,
+    "fields": {
+      "name": "La Baguette Magique",
+      "image": "properties/castle.jpg",
+      "location": "Verbier",
+      "rooms": 8,
+      "staff_count": 4,
+      "bookings_count": 6,
+      "has_issues": false,
+      "added_date": "2025-01-03"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 5,
+    "fields": {
+      "name": "La Forêt",
+      "image": "properties/foret.jpg",
+      "location": "Zermatt",
+      "rooms": 12,
+      "staff_count": 6,
+      "bookings_count": 9,
+      "has_issues": false,
+      "added_date": "2025-01-04"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 6,
+    "fields": {
+      "name": "Maison du Pavillon",
+      "image": "properties/pav.jpg",
+      "location": "Tignes",
+      "rooms": 14,
+      "staff_count": 7,
+      "bookings_count": 5,
+      "has_issues": true,
+      "added_date": "2025-02-20"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 7,
+    "fields": {
+      "name": "Villa Sakura",
+      "image": "properties/pink.jpg",
+      "location": "Courchevel",
+      "rooms": 18,
+      "staff_count": 10,
+      "bookings_count": 15,
+      "has_issues": false,
+      "added_date": "2025-01-05"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 8,
+    "fields": {
+      "name": "Le Château",
+      "image": "properties/tokyo.jpg",
+      "location": "Chamonix",
+      "rooms": 10,
+      "staff_count": 5,
+      "bookings_count": 4,
+      "has_issues": true,
+      "added_date": "2025-01-06"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 9,
+    "fields": {
+      "name": "Le Manoir",
+      "image": "properties/snow.jpg",
+      "location": "Val d'Isère",
+      "rooms": 15,
+      "staff_count": 8,
+      "bookings_count": 12,
+      "has_issues": false,
+      "added_date": "2025-02-20"
+    }
+  },
+  {
+    "model": "properties.property",
+    "pk": 10,
+    "fields": {
+      "name": "Le Palais",
+      "image": "properties/white.jpg",
+      "location": "Méribel",
+      "rooms": 20,
+      "staff_count": 12,
+      "bookings_count": 8,
+      "has_issues": true,
+      "added_date": "2025-02-20"
+    }
+  },
+  {
+    "model": "properties.issue",
+    "pk": 1,
+    "fields": {
+      "property": 1,
+      "name": "Leaky faucet",
+      "date_reported": "2025-01-01",
+      "resolved": false
+    }
+  },
+  {
+    "model": "properties.issue",
+    "pk": 2,
+    "fields": {
+      "property": 1,
+      "name": "Broken window",
+      "date_reported": "2025-01-01",
+      "resolved": false
+    }
+  },
+  {
+    "model": "properties.issue",
+    "pk": 3,
+    "fields": {
+      "property": 1,
+      "name": "Faulty wiring",
+      "date_reported": "2025-01-01",
+      "resolved": false
+    }
+  },
+  {
+    "model": "properties.issue",
+    "pk": 4,
+    "fields": {
+      "property": 3,
+      "name": "Faulty wiring",
+      "date_reported": "2025-01-02",
+      "resolved": false
+    }
+  },
+  {
+    "model": "properties.issue",
+    "pk": 5,
+    "fields": {
+      "property": 3,
+      "name": "Heating malfunction",
+      "date_reported": "2025-01-02",
+      "resolved": false
+    }
+  },
+  {
+    "model": "properties.issue",
+    "pk": 6,
+    "fields": {
+      "property": 6,
+      "name": "Pest infestation",
+      "date_reported": "2025-02-20",
+      "resolved": false
+    }
+  },
+  {
+    "model": "properties.issue",
+    "pk": 7,
+    "fields": {
+      "property": 8,
+      "name": "Broken window",
+      "date_reported": "2025-01-06",
+      "resolved": false
+    }
+  },
+  {
+    "model": "properties.issue",
+    "pk": 8,
+    "fields": {
+      "property": 8,
+      "name": "Heating malfunction",
+      "date_reported": "2025-01-06",
+      "resolved": false
+    }
+  },
+  {
+    "model": "properties.issue",
+    "pk": 9,
+    "fields": {
+      "property": 8,
+      "name": "Pest infestation",
+      "date_reported": "2025-01-06",
+      "resolved": false
+    }
+  },
+  {
+    "model": "properties.issue",
+    "pk": 10,
+    "fields": {
+      "property": 10,
+      "name": "Leaky faucet",
+      "date_reported": "2025-02-20",
+      "resolved": false
+    }
+  },
+  {
+    "model": "properties.issue",
+    "pk": 11,
+    "fields": {
+      "property": 10,
+      "name": "Faulty wiring",
+      "date_reported": "2025-02-20",
+      "resolved": false
+    }
+  },
+  {
+    "model": "properties.staff",
+    "pk": 1,
+    "fields": {
+      "name": "Alice Johnson",
+      "property": 1,
+      "position": "Manager",
+      "joined_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "properties.staff",
+    "pk": 2,
+    "fields": {
+      "name": "Bob Williams",
+      "property": 1,
+      "position": "Maintenance",
+      "joined_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "properties.staff",
+    "pk": 3,
+    "fields": {
+      "name": "Charlie Brown",
+      "property": 1,
+      "position": "Housekeeping",
+      "joined_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "properties.staff",
+    "pk": 4,
+    "fields": {
+      "name": "Bob Williams",
+      "property": 2,
+      "position": "Manager",
+      "joined_date": "2025-01-20"
+    }
+  },
+  {
+    "model": "properties.staff",
+    "pk": 5,
+    "fields": {
+      "name": "Charlie Brown",
+      "property": 2,
+      "position": "Housekeeping",
+      "joined_date": "2025-01-20"
+    }
+  },
+  {
+    "model": "properties.staff",
+    "pk": 6,
+    "fields": {
+      "name": "Diana Miller",
+      "property": 2,
+      "position": "Concierge",
+      "joined_date": "2025-01-20"
+    }
+  },
+  {
+    "model": "properties.staff",
+    "pk": 7,
+    "fields": {
+      "name": "Eve Davis",
+      "property": 2,
+      "position": "Chef",
+      "joined_date": "2025-01-20"
+    }
+  },
+  {
+    "model": "properties.staff",
+    "pk": 8,
+    "fields": {
+      "name": "Alice Johnson",
+      "property": 3,
+      "position": "Manager",
+      "joined_date": "2024-12-02"
+    }
+  },
+  {
+    "model": "properties.staff",
+    "pk": 9,
+    "fields": {
+      "name": "Charlie Brown",
+      "property": 3,
+      "position": "Housekeeping",
+      "joined_date": "2024-12-02"
+    }
+  },
+  {
+    "model": "properties.staff",
+    "pk": 10,
+    "fields": {
+      "name": "Diana Miller",
+      "property": 3,
+      "position": "Concierge",
+      "joined_date": "2024-12-02"
+    }
+  }
+]

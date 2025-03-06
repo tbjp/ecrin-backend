@@ -1,0 +1,93 @@
+[
+  {
+    "model": "bookings.booking",
+    "pk": 1,
+    "fields": {
+      "property": 1,
+      "guest_name": "John Smith",
+      "check_in": "2025-03-01",
+      "check_out": "2025-03-08",
+      "price_per_night": "15000.00",
+      "total_price": "105000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "bookings.booking",
+    "pk": 2,
+    "fields": {
+      "property": 1,
+      "guest_name": "Emily White",
+      "check_in": "2025-03-01",
+      "check_out": "2025-03-05",
+      "price_per_night": "15000.00",
+      "total_price": "60000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "bookings.booking",
+    "pk": 3,
+    "fields": {
+      "property": 1,
+      "guest_name": "David Black",
+      "check_in": "2025-04-10",
+      "check_out": "2025-04-17",
+      "price_per_night": "18000.00",
+      "total_price": "126000.00",
+      "status": "future"
+    }
+  },
+  {
+    "model": "bookings.booking",
+    "pk": 4,
+    "fields": {
+      "property": 1,
+      "guest_name": "Olivia Green",
+      "check_in": "2025-05-01",
+      "check_out": "2025-05-08",
+      "price_per_night": "16500.00",
+      "total_price": "115500.00",
+      "status": "future"
+    }
+  },
+  {
+    "model": "bookings.booking",
+    "pk": 5,
+    "fields": {
+      "property": 2,
+      "guest_name": "Emily White",
+      "check_in": "2025-03-01",
+      "check_out": "2025-03-08",
+      "price_per_night": "22000.00",
+      "total_price": "154000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "bookings.booking",
+    "pk": 6,
+    "fields": {
+      "property": 2,
+      "guest_name": "David Black",
+      "check_in": "2025-03-01",
+      "check_out": "2025-03-05",
+      "price_per_night": "22000.00",
+      "total_price": "88000.00",
+      "status": "active"
+    }
+  },
+  {
+    "model": "bookings.booking",
+    "pk": 7,
+    "fields": {
+      "property": 2,
+      "guest_name": "Olivia Green",
+      "check_in": "2025-03-01",
+      "check_out": "2025-03-08",
+      "price_per_night": "22000.00",
+      "total_price": "154000.00",
+      "status": "active"
+    }
+  }
+]
